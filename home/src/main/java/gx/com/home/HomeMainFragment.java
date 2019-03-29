@@ -38,7 +38,9 @@ public class HomeMainFragment extends Fragment implements IHomeView{
         initEvent();
         ViewGroup.LayoutParams layoutParams = tbs.getLayoutParams();
         layoutParams.height = (int) (height*0.06);
+        layoutParams.width = (int) (width*0.75);
         tbs.setLayoutParams(layoutParams);
+
         return view;
     }
     public void initView(View view){

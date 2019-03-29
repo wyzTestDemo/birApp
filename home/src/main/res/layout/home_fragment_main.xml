@@ -26,13 +26,14 @@
         android:layout_marginLeft="6dp"
         android:layout_marginRight="6dp"
         android:layout_marginTop="4dp"
-        android:padding="0dp"
         android:background="@drawable/tab_home"
         app:tabBackground="@drawable/tab_item_home"
         app:tabIndicatorColor="@color/black"
         app:tabSelectedTextColor="@color/black"
         app:tabTextAppearance="@style/tab_Home_size"
-        app:tabTextColor="@color/lightgray" />
+        app:tabTextColor="@color/lightgray"
+        android:clipChildren="false"
+        />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewP"
